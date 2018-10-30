@@ -8,6 +8,6 @@ wow.
 ## Oui olala c'est cheat
 On s'en branle.
 
-© TheRewinder 2018 mangez mon cul
+© Therewinder 2018 mangez mon cul
 
 Made with ♥ in France.
