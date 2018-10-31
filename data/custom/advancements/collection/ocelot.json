@@ -1,0 +1,61 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cod"
+		},
+		"title": "Ocelot",
+		"description": "Ocelot Collection Head",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "custom:collection/root",
+	"criteria": {
+		"ocelot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"223578f3-c904-4ef7-a220-f4cb28064719\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE2ZGM1NzVjODU3ZTJlYzUwNDc3ZWU1OWIxNmEzOTk3NmQ4MWM2NDY4YzU5MmJlOTMyOWYxYjQyZWYzN2YyYyJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"ginger_cat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"4b386bcf-a8e6-4461-b738-d5427bae49ad\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc1NWU3ZGYwNGQxOGIzMWQ2M2MxN2Y0YTdiNGM3MzkyNGJkNjI2NWRhNjllMTEzZWRkZDk3NTE2ZmM3In19fQ==\"}]}}}"
+					}
+				]
+			}
+		},
+		"siamese_cat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"1775ad8a-06ac-4d62-a21b-593dcfcd2192\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI4ODFjMzliM2FmZGNjNzlmOTFmZTVkZTNjZGQwMTViYzMzNTM4NDNmNTkxZjRkMjNjZDMwMjdkZTRlNiJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"black_cat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"82cf1e27-3b94-4f81-9f4a-d79f4b4b0a2a\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJhNjYyZjJhZTdkZWJlZTY1MjkyYzJiZjQyZmJiMDliOTdiMmZmYmRiMjcwNTIwYzJkYjk2ZTUxZDg5NDUifX19\"}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "experience": 1000
+    }
+}

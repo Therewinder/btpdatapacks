@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+	"multiplayer_sleep:init",
+	".config:multiplayer_sleep/config"
+  ]
+}

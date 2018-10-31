@@ -1,0 +1,83 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:emerald"
+		},
+		"title": "Villager",
+		"description": "Villager Collection",
+        "announce_to_chat": true,
+        "frame": "goal"
+	},
+	"parent": "custom:collection/root",
+	"criteria": {
+		"farmer_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"cc1292b1-9045-4d78-b426-810b51a53e40\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ2MzM0ODU5MmJkMTZjOWJiNzJmODdhOWNkNTNjNWU0OThkMjM1ZDgyZjMyZWMzNDdkZGU4MTQzOTg4YWYifX19\"}]}}}"
+					}
+				]
+			}
+		},
+		"librarian_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"ca86aa9b-5eff-4163-a046-25f9f9a7efd2\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYzNDIxY2Q3ZTUzMzMwNjZiM2I0OWY2MTY5YWMzYmI3ZDk2YjZkZGQxOTM1YzZiYzJlNWM5NGM2MTI3NTcifX19\"}]}}}"
+					}
+				]
+			}
+		},
+		"cleric_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"afbd13f-323f-4bff-9e9c-050bbe59ba78\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU5NmI0ZWNiMGI0N2NkMzU1YmQ4N2YyOWNkZmNiY2MzMjYzZDE2N2RkMmJiMDk3NGJkNmUzZjY3ZDczNCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		},
+		"blacksmith_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"38a94c5c-93d1-4611-83d2-d4feaa451425\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ4NmYyZjdhZTRjOTEyZmExYzU5OWVkMWIyYjJmYzM1MDVhODhkNTEzY2ExOGFkNjk4M2FiZDRiNmFjZTIifX19\"}]}}}"
+					}
+				]
+			}
+		},
+		"butcher_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"6610abe0-d1f3-4f65-8b7e-1c712b503f77\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUyMTIwNjFjYzYxNmFlNWQ1ZmE5YjEzZWQyNjMzNzJkNWE1MDVkODM0MDNhZmY2MDEzMWIyOWNmYTk0MTcifX19\"}]}}}"
+					}
+				]
+			}
+		},
+		"nitwit_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"b3ed4a1b-dfff-464c-87c0-c8029e1de47b\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZhYjYxYWNlMTM2MDE3YTg3YjFiODFiMTQ1ZWJjNjNlMmU2ZGE5ZDM2NGM4MTE5NGIzM2VlODY2ZmU0ZCJ9fX0=\"}]}}}"
+					}
+				]
+			}
+		}
+	},
+    "rewards": {
+        "experience": 1000
+    }
+}

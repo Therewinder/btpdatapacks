@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:\"cc1292b1-9045-4d78-b426-810b51a53e40\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ2MzM0ODU5MmJkMTZjOWJiNzJmODdhOWNkNTNjNWU0OThkMjM1ZDgyZjMyZWMzNDdkZGU4MTQzOTg4YWYifX19\"}]}}}"
+		},
+		"title": "Farmer Villager",
+		"description": "Farmer Villager Head",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "custom:collection/villager",
+	"criteria": {
+		"farmer_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"cc1292b1-9045-4d78-b426-810b51a53e40\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQ2MzM0ODU5MmJkMTZjOWJiNzJmODdhOWNkNTNjNWU0OThkMjM1ZDgyZjMyZWMzNDdkZGU4MTQzOTg4YWYifX19\"}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

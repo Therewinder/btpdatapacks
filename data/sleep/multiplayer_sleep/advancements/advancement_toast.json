@@ -1,0 +1,30 @@
+{
+  "parent": "multiplayer_sleep:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": {
+      "text": "Someone wants to sleep",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "Someone wants to sleep",
+      "color": "yellow"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

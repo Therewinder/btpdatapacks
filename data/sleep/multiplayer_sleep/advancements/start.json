@@ -1,0 +1,22 @@
+{
+  "parent": "multiplayer_sleep:root",
+  "rewards": {
+    "function": "multiplayer_sleep:start"
+  },
+  "criteria": {
+    "slept_in_bed": {
+      "trigger": "minecraft:slept_in_bed"
+    },
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "slept_in_bed"
+    ],
+    [
+      "tick"
+    ]
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "multiplayer_sleep:root",
+  "rewards": {
+    "function": "multiplayer_sleep:calculate"
+  },
+  "criteria": {
+    "entered_end": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_end"
+      }
+    },
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    },
+    "entered_overworld": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "entered_end",
+      "entered_nether",
+      "entered_overworld"
+    ]
+  ]
+}

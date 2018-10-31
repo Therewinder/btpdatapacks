@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:\"6610abe0-d1f3-4f65-8b7e-1c712b503f77\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUyMTIwNjFjYzYxNmFlNWQ1ZmE5YjEzZWQyNjMzNzJkNWE1MDVkODM0MDNhZmY2MDEzMWIyOWNmYTk0MTcifX19\"}]}}}"
+		},
+		"title": "Butcher Villager",
+		"description": "Butcher Villager Head",
+        "frame": "task",
+        "announce_to_chat": false,
+        "show_toast": true
+	},
+	"parent": "custom:collection/villager/blacksmith_villager",
+	"criteria": {
+		"butcher_villager": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:player_head",
+						"nbt": "{SkullOwner:{Id:\"6610abe0-d1f3-4f65-8b7e-1c712b503f77\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUyMTIwNjFjYzYxNmFlNWQ1ZmE5YjEzZWQyNjMzNzJkNWE1MDVkODM0MDNhZmY2MDEzMWIyOWNmYTk0MTcifX19\"}]}}}"
+					}
+				]
+			}
+		}
+	}
+}

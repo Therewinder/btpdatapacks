@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+		
+		"conditions": [
+                {
+                    "condition": "killed_by_player"
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:player_head",
+                    "weight": 1,
+                    "functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{SkullOwner:{Id:\"6610abe0-d1f3-4f65-8b7e-1c712b503f77\",Name:\"Butcher Villager\",Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGUyMTIwNjFjYzYxNmFlNWQ1ZmE5YjEzZWQyNjMzNzJkNWE1MDVkODM0MDNhZmY2MDEzMWIyOWNmYTk0MTcifX19\"}]}}}"
+						},
+						{
+                            "function": "set_count",
+                            "count": {
+                                "min": -50,
+                                "max": 0
+                            }
+                        },
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 0.24,
+                                "max": 0.24
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
