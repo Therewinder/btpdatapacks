@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "franswapack:change_dimension",
+    "franswapack:check_position",
+    "franswapack:update_constants"
+  ]
+}
